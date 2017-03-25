@@ -5,7 +5,6 @@ js日历控件
 
 # 用法
 ### html
-	```javascript
         <div id="cal">
             <div id="top">
                 <div class="select">
@@ -35,16 +34,15 @@ js日历控件
                 <a href="javascript:;;" id="now-date">回到今天</a>
             </div>
         </div>
-    ```
 ### js
-	```javascript
+
 		calendar.init({
 		    cellClickCallback: function(cell, datedata){
 		        console.log(datedata);
 		        alert('你点击的是'+ datedata.solarYear + '年' + datedata.solarMonth + '月' + datedata.solarDate + '日');        
 		    }
 		});
-	```
+
 ### datedata
 
 	solarYear 年
